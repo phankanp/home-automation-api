@@ -1,3 +1,5 @@
+A Java REST API to control a home automation system. The Spring API provides the ability to add, edit, delete rooms, equipment, and controls, and get/set the values of the controls.
+
 # Steps
 
 - Create a Spring Data REST project to serve the HATEOAS compliant API. Use the Spring Boot Gradle plugin for dependencies

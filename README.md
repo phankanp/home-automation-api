@@ -14,6 +14,4 @@ A Java REST API to control a home automation system. The Spring API provides the
 - Add a search resource that provides the ability to find Devices based on a partial name.
 - Track the last user to modify the control and report it in control.lastModifiedBy
 - Ensure that control modifications are versioned so that clients can use appropriate E-Tags
-- Add tests to validate all requested additional configuration
-- Add additional searches to find rooms by name and less than a specified area
-- Ensure that only Room Administrators can add and modify Devices and Controls
+

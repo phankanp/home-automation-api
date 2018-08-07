@@ -61,8 +61,8 @@ public class DatabaseLoader implements ApplicationRunner {
                     String room = roomChoice[i % roomChoice.length];
 
                     Room r = new Room(room, (int) (Math.random() * 1000));
-                    Device d = new Device("Device " + i);
-                    Control c = new Control("Control " + i);
+                    Device d = new Device("Device" + i);
+                    Control c = new Control("Control" + i);
 
                     int randomUser = (int) (Math.random() * userList.size());
 
